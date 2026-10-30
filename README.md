@@ -1,7 +1,7 @@
 # Manual implementation of Data Structures and algorithms :
 - Algorithms :
-    * Bubble sort
-    * Selection sort
+    * Bubble sort ✓
+    * Selection sort ✓
     * Insertion sort ✓
     * Quick sort ✓
     * Merge sort ✓

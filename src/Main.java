@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = ArrayBuilder.integerOf(5,100);
         printArray(arr);
-        Sorter.insertionSort(arr);
+        Sorter.quicksort(arr);
         printArray(arr);
     }
 }

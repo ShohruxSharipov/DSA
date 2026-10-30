@@ -9,4 +9,10 @@ public class ArrayUtil {
         }
         System.out.println(arr[i] + "]");
     }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }

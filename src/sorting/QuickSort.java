@@ -1,4 +1,5 @@
 package sorting;
+import static sorting.utils.ArrayUtil.swap;
 
 public class QuickSort {
     public static void sort(int[] arr) {
@@ -21,9 +22,7 @@ public class QuickSort {
         while (j <= tail) {
             if (arr[j] < x) {
                 i++;
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+               swap(arr,i,j);
             }
             j++;
         }
